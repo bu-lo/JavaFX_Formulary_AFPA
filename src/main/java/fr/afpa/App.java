@@ -74,9 +74,13 @@ public class App extends Application {
         });
        
 
-        buttonErase.setOnAction(e -> {
-        textField1.setText("Enter Text");
-        textField2.setText(textField1.getText());
+        //buttonErase.setOnAction(e -> {
+        //textField1.setText("Enter Text");
+        //textField2.setText(textField1.getText());
+        //});
+
+        buttonErase.setOnAction(e ->{
+        textField2.clear();
         });
 
 
