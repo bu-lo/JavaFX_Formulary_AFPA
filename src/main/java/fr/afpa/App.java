@@ -27,6 +27,9 @@ public class App extends Application {
         stage.setMaxHeight(144);
         stage.setMaxWidth(400);
 
+        stage.setTitle("Formulary"); //.SETTITTLE
+        
+
         //INSTANCIATION
         Label label = new Label("User Input :  ");
         Label label2 = new Label("Copy of the User Input : ");
