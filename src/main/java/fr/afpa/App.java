@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
 import javafx.scene.layout.StackPane;
@@ -27,9 +28,15 @@ public class App extends Application {
         stage.setMaxHeight(144);
         stage.setMaxWidth(400);
 
-        stage.setTitle("Formulary"); //.SETTITTLE
+        //STAGE
+        stage.setTitle(" SIMPLE FORMULARY"); //.SETTITTLE
+
+        // ICON
+        Image icon = new Image(getClass().getResourceAsStream("formulary.png"));
+        stage.getIcons().add(icon);// Add icon in stage
         
 
+        //SCENE 
         //INSTANCIATION
         Label label = new Label("User Input :  ");
         Label label2 = new Label("Copy of the User Input : ");
