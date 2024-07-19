@@ -1,1 +1,1 @@
-<img align="center" src="./Preview_FORMULARY.png" width="300" height="110" />
+<img align="center" src="./Preview_FORMULARY.png" width="400" height="160" />
